@@ -2,3 +2,78 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    margin: 0%;
+    background-image: url('../images/fondo.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav {
+    width: 100%;
+    background-color: rgb(1, 120, 124);
+    margin: 0%;
+    color: white;
+    
+}
+header section div a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(1, 120, 124);
+    border-style: solid;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 5px;
+}
+header section div a:hover {
+    background-color: rgb(86, 161, 157);
+    color: inherit;
+}
+
+main nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bloque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bloque img {
+    margin: 3px;
+    padding: 20px;
+}
+.bloque p {
+    margin-left: 35%;
+}
+nav ul li {
+    list-style: none;
+    margin: 3px;
+    padding: 5px;
+}
+nav ul li:hover {
+    background-color: rgba(1, 56, 78, 0.808);
+    border-bottom: solid 2px;
+    color: rgb(1, 42, 58);
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;  
+}
+.card-deck .card {
+    max-width: 25%;
+}
+footer {
+    background-color: rgb(86, 161, 157);
+}
+footer section ul li{
+    list-style: none;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 2px;
+}
+/*animaciones*/
