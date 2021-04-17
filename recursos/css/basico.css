@@ -63,6 +63,12 @@ nav ul li a {
     font-size: 20px;
     color: inherit;  
 }
+nav li {
+    animation-name: move;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
 .card-deck .card {
     max-width: 25%;
 }
@@ -76,4 +82,18 @@ footer section ul li{
     padding: 5px;
     margin-left: 2px;
 }
+main section article .cambio:hover {
+    background-color: rgb(170, 223, 220);
+}
 /*animaciones*/
+@keyframes move {
+    0% {transform: translateX(10000%);
+
+    }
+    70%{transform: translateX(50%);
+
+    }
+    100%{transform: translateX(0%);
+        
+    }
+}
